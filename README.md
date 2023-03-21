@@ -42,3 +42,13 @@ essa transferência
 
 - Tempo de Transferencia = 13 minutos e 20 segundos
 
+
+### ex 4
+
+-Caso você tenha uma conexão de Internet com velocidade de upload de 5
+Mbps e, seja preciso enviar um vídeo de 500 MB (megabytes) para um
+amigo. Qual seria o tempo estimado para realizar essa transferência
+
+
+-5 Mbps = 0,625 MB/s (1 byte = 8 bits
+-500 MB / 0,625 MB/s = 800 segundos
