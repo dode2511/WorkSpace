@@ -1,35 +1,35 @@
 import 'dart:io';
 
 
-List<String?> arr = ["red dead redempion 2",];
 
+ //cad(){
+  //for (int c=0; c < arr.length;c++){
 
- lisa(){
-  for (int c=0; c > arr.length;c++){
-  print("${c+1}.$arr[c]");
+ // } 
+//}
+// excluir(){
+//  for (int c=0; c < arr.length;c++){
 
-  } 
-}
- cad(){
-  for (int c=0; c < arr.length;c++){
+ // } 
+//// }
+// procurar(){
+ // for (int c=0; c < arr.length;c++){
 
-  } 
-}
- excluir(){
-  for (int c=0; c < arr.length;c++){
-
-  } 
- }
- procurar(){
-  for (int c=0; c < arr.length;c++){
-
-  } 
-}
+ // } 
+//}
 
 
 
 void main() {
+List<String?> arr = ["red dead redempion 2",];
 
+
+ void lisa(){
+  for (int c=0; c > arr.length;c++){
+  print("${c+1}.${arr[c]}");
+
+  } 
+}
   
 
  while(true){
@@ -40,7 +40,7 @@ void main() {
   print("3. Excluir jogo");
   print("4. Procurar por Nome");
   print("5. Sair");
-  print('Please enter your name: ');
+  print(': ');
 
   String? select = stdin.readLineSync();
    if(select == null){
@@ -58,15 +58,16 @@ void main() {
       break;
       
     case "2" :
-      cad();
+    print('ola');
+      //cad();
       break;
       
     case "3" :
-      excluir();
+     // excluir();
       break;
       
     case "4" :
-      procurar();
+     // procurar();
       break;
       
 
