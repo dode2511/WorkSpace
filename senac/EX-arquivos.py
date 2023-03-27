@@ -4,8 +4,9 @@ linhas = []
 nomes = ""
 idades = ""
 cursos = ""
-# abre o aruivo
-with open("exercicio.txt", "r") as arq:
+
+
+with open("C.txt", "r") as arq:
  arq_csv = csv.reader(arq,delimiter=";")
  writer_csv = csv.writer(arq,delimiter=";")
     # mostra os itens ja no arquivo
