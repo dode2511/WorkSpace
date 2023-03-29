@@ -1,17 +1,45 @@
 import 'dart:io';
-List<String> arr = ["red dead redempion 2"];
+List<String> arr = ["red dead redempion 2","god of war"];
 
  void lista(){
-  print("ola");
   for (int c=0; c < arr.length;c++){
   print("${c+1}.${arr[c]}");
 
   } 
 }
+ void cadastrar(){
+   print("-" *30);
+   print("informe o nome do jogo");
+   var nome = stdin.readLineSync();
+   if(nome == null || nome.runtimeType != String){
+    print("Errp informe o nome corretamente ");
+     return;
+   }
+   arr.add(nome);
+   print("jogo cadastrado com sucesso ");
+
+  } 
+ void excluir(){
+   print("-" *30);
+   print("informe o nome do jogo que deseja excluir");
+   var nome = stdin.readLineSync();
+   if(nome == null || nome.runtimeType != String){
+    print("Errp informe o nome corretamente ");
+     return;
+   }
+     for (int i = 0; i > arr.length;i++){
+      if(arr[i] == nome){
+        arr.removeAt(i);
+        print("jogo removido com sucesso $nome");
+      }
+     }
+  
+
+  } 
+
 
 void main() {
 
-  
 
  while(true){
   print("-" *30);
@@ -24,6 +52,7 @@ void main() {
   print(': ');
 
   var select = stdin.readLineSync();
+   print("-" *30);
    if(select == null){
     print("algo deu errado ");
      break;
@@ -40,12 +69,11 @@ void main() {
       break;
       
     case "2" :
-    print('ola');
-      //cad();
+      cadastrar();
       break;
       
     case "3" :
-     // excluir();
+     excluir();
       break;
       
     case "4" :
