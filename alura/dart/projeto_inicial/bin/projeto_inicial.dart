@@ -37,6 +37,9 @@ List<String> arr = ["red dead redempion 2","god of war"];
 
   } 
 
+void procurar(){
+  
+}
 
 void main() {
 
@@ -77,7 +80,7 @@ void main() {
       break;
       
     case "4" :
-     // procurar();
+     procurar();
       break;
       
 

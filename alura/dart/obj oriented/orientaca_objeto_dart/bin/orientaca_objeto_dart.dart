@@ -1,5 +1,28 @@
-import 'package:orientaca_objeto_dart/orientaca_objeto_dart.dart' as orientaca_objeto_dart;
 
-void main(List<String> arguments) {
-  print('Hello world: ${orientaca_objeto_dart.calculate()}!');
+
+void main() {
+
+
+print(funcDevolve('-----'));
+
+
+
+}
+
+
+
+
+String funcDevolve(String str){
+
+
+
+if(str.length > 3){
+
+
+return  'devolvi';
+} else {
+  
+  return 'deu merda';
+
+}
 }
