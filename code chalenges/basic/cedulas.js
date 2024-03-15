@@ -5,7 +5,7 @@ const input = 0
 let valor = parseInt(input)
 
 
-const notas =[100,50,20,10,5,2,1]
+const notas =[100,50,20,10,5,2,1,2,2,2,2]
 
 console.log(valor);
 
